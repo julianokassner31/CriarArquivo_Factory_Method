@@ -2,7 +2,6 @@ package br.com.slack.fabrica.pdf;
 
 import java.io.FileOutputStream;
 
-import com.itextpdf.text.Chapter;
 import com.itextpdf.text.Document;
 import com.itextpdf.text.Paragraph;
 import com.itextpdf.text.pdf.PdfWriter;
