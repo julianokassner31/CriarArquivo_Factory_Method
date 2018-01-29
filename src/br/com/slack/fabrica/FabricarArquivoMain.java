@@ -15,7 +15,7 @@ import br.com.slack.fabrica.txt.FabricaDeArquivoTXT;
 public class FabricarArquivoMain {
 
 	public static void main(String[] args) throws FileNotFoundException, DocumentException {
-		FabricaDeArquivoPDF fabricaDeArquivoPDF = new FabricaDeArquivoPDF();
+		FabricaDeArquivo fabricaDeArquivoPDF = new FabricaDeArquivoPDF();
 		Arquivo arquivo = fabricaDeArquivoPDF.criarArquivo("Teste PDF");
 		arquivo.gravarArquivo();
 		
@@ -23,7 +23,7 @@ public class FabricarArquivoMain {
 		System.out.println("##########################################################");
 		System.out.println("");
 		
-		FabricaDeArquivoTXT fabricaDeArquivoTXT = new FabricaDeArquivoTXT();
+		FabricaDeArquivo fabricaDeArquivoTXT = new FabricaDeArquivoTXT();
 		arquivo = fabricaDeArquivoTXT.criarArquivo("Teste TXT");
 		arquivo.gravarArquivo();
 	}
